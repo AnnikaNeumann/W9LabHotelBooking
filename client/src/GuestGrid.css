@@ -1,3 +1,7 @@
 .GuestGrid{
     border: black solid;
+    margin: 1%;
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: auto;
 }

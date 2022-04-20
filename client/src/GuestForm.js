@@ -1,5 +1,6 @@
 import {useState} from "react";
 import { postHotel_bookings } from "./GuestService";
+import './GuestForm.css';
 
 const GuestForm = ({addBooking}) => {
     
@@ -34,7 +35,7 @@ const GuestForm = ({addBooking}) => {
                 <input onChange={onChange} type="checkbox" id="checkInStatus"  />
             </div>
 
-            <input type="submit" value="Save" id="save"/>
+            <input type="submit" value="Be my guest" id="save"/>
 	    </form>
 
     );

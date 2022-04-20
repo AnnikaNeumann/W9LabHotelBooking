@@ -20,7 +20,8 @@ const GuestCard = ({bookings, removeBooking}) => {
         <p>Email: {bookings.email}</p>
         <p>Checked In: {bookings.checkInStatus}</p>
         <button onClick={handleDelete}> 🗑 </button>
-        <hr></hr>
+        <br></br><br></br>
+
         </>
        </div>
     )

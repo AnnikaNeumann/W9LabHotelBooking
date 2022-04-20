@@ -1,5 +1,7 @@
 import GuestCard from "./GuestCard";
 import './App.css';
+import './GuestGrid.css';
+
 
 const GuestGrid = ({bookings, removeBooking}) => {
     const guestList = bookings.map((b) => {

@@ -1,0 +1,14 @@
+#guest-form{
+    font-size: 48px;
+    display:inline-block;
+    font-family: "California";
+
+}
+
+.guest{
+    font-size: 30px;
+}
+
+#save{
+    font-size: 15px;
+}

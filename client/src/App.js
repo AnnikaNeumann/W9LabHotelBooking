@@ -31,16 +31,16 @@ function App() {
   }
 
   
-
   return (
-    <div className='App'>
     <>
-    <img className="california" src={require("./images/hotel-california.jpeg")} alt='Hotel California'/>
-
-    <GuestForm addBooking={addBooking}/>
+    <img className="hero-image" src={require("./images/hotel-california.jpeg")} alt='Hotel California'/>
+    <div className='hero-text'>
+    <GuestForm addBooking={addBooking}/></div>
+    <div className='grid'>
     <GuestGrid bookings ={hotelGuest} removeBooking={removeBooking} />
-    </>
     </div>
+    
+    </>
   );
   }
 
