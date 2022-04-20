@@ -1,0 +1,6 @@
+.guestCard{
+    display:block;
+    background-color: rgb(136, 194, 194);
+    border: 1px solid;
+    border-color: black;
+}

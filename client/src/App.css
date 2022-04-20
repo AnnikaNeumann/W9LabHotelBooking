@@ -1,0 +1,12 @@
+
+
+.App {
+  text-align: center;
+  background: pink;
+}
+
+.california{
+  width: 400px;
+  padding-top: 5px;
+  opacity: calc(60%);
+}
