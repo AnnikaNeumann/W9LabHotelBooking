@@ -20,6 +20,7 @@ const GuestForm = ({addBooking}) => {
     }
 
     return (
+        <fieldset>
         <form onSubmit={onSubmit} id="guest-form" >
             <h2>Add a Guest</h2>
             <div className="guest">
@@ -37,6 +38,7 @@ const GuestForm = ({addBooking}) => {
 
             <input type="submit" value="Be my guest" id="save"/>
 	    </form>
+        </fieldset>
 
     );
 }
